@@ -1,0 +1,33 @@
+{
+    "name": "thytanium/migrations",
+    "description": "Package for handling and testing Laravel migrations",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Thytanium\\Migrations\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "illuminate/console": "^5.0",
+        "illuminate/filesystem": "^5.0",
+        "illuminate/support": "^5.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.0",
+        "thytanium/tester": "^0.0.5",
+        "phpunit/phpunit": "^6.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alejandro González",
+            "email": "ale@thytanium.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
